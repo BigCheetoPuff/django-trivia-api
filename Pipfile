@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.0.1"
+djangorestframework = "*"
+pandas = "~=1.1.0"
+django-annoying = "~=0.10.6"
+psycopg2 = "~=2.8.5"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
